@@ -4,13 +4,12 @@
             <li>
                 <a href="{{pathFor route='dashboard'}}" class="{{isActiveRoute regex='dashboard'}}">
                     <i class="icon-wallet"></i>
-                    <span>{{i18n 'wallet.app.buttons.wallet'}}</span>
+                   
                 </a>
             </li>
             <li>
                 <a href="{{goToSend}}" class="{{isActiveRoute regex='send'}}">
                     <i class="icon-arrow-up"></i>
-                    <span>{{i18n 'wallet.app.buttons.send'}}</span>
                 </a>
             </li>            
             <li class="block-syncing {{#if TemplateVar.get 'syncing'}}syncing{{/if}}">
